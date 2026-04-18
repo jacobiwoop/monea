@@ -56,9 +56,12 @@ export default function App() {
             <a href="#pay" className="hover:text-slate-900 transition-colors">MONEA Pay</a>
             <a href="#services" className="hover:text-slate-900 transition-colors">Services</a>
           </div>
-          <button className="bg-slate-900 text-white px-5 py-2.5 rounded-full font-medium text-sm hover:bg-slate-800 transition-all active:scale-95 shadow-lg shadow-slate-200">
+          <a 
+            href="https://pageforge.aiko.qzz.io/generate"
+            className="bg-slate-900 text-white px-5 py-2.5 rounded-full font-medium text-sm hover:bg-slate-800 transition-all active:scale-95 shadow-lg shadow-slate-200"
+          >
             Commencer
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -86,10 +89,13 @@ export default function App() {
               Nous construisons un écosystème complet qui permet de transformer n'importe quelle idée en une activité rentable en Afrique de l'Ouest.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-2 shadow-xl shadow-slate-200 group">
+              <a 
+                href="https://pageforge.aiko.qzz.io/generate"
+                className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-2 shadow-xl shadow-slate-200 group"
+              >
                 Lancer ma boutique
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <button className="bg-white text-slate-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-slate-50 transition-all flex items-center justify-center gap-2 border-2 border-slate-200">
                 Découvrir MONEA Pay
               </button>
@@ -211,10 +217,13 @@ export default function App() {
                  </div>
 
                  {/* Deploy Button */}
-                 <button className="w-full bg-[#0E9F6E] text-white font-bold text-lg py-5 rounded-xl flex items-center justify-center gap-3 hover:bg-[#047857] transition-colors active:scale-[0.98] relative z-10">
+                 <a 
+                   href="https://pageforge.aiko.qzz.io/generate"
+                   className="w-full bg-[#0E9F6E] text-white font-bold text-lg py-5 rounded-xl flex items-center justify-center gap-3 hover:bg-[#047857] transition-colors active:scale-[0.98] relative z-10"
+                 >
                    <Zap className="w-6 h-6 fill-white" />
                    DEPLOY_NEURAL_AGENTS
-                 </button>
+                 </a>
                </div>
              </div>
           </div>
